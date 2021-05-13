@@ -25,7 +25,7 @@ class Messaggio
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=70)
      * @Assert\NotBlank
      */
     private $titolo;

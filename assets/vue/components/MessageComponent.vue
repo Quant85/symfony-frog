@@ -35,7 +35,7 @@ export default {
   data() {
     return {
       listDataString: "||",
-      page: 1,
+      // page: 1,
     };
   },
   methods: {
@@ -46,7 +46,7 @@ export default {
             this.listDataString = JSON.stringify(response.data, null, "\t");
           })
           .catch (e => {
-            this.errors.push (e)
+            console.log(e);
           });
     },
     resetArea() {
