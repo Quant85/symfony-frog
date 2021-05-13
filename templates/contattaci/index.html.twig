@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mashfrog | Contattaci!{% endblock %}
+
+{% block body %}
+    <main id="contattaci">
+        <div class="container-fluid w-50">
+            <div class="container-md w-75">
+                <h1 class="my-4"><a class="btn btn-info mx-2" href="/"> 🏠 Home </a> Hello! Questo è il {{ controller_name }}! </h1>
+                {{ form_start(message_form) }}
+                    {{ form_rest(message_form) }}
+                    <button type="submit" class="btn btn-primary my-md-3">Invia</button>
+                {{ form_end(message_form) }}
+            </div>
+        </div>
+    </main>
+{% endblock %}

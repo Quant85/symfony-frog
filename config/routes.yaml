@@ -1,0 +1,6 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+contattaci:
+    path: /contattaci
+    controller: App\Controller\ContattaciController::index
